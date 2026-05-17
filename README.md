@@ -21,25 +21,7 @@ The project demonstrates modern recommendation system architecture inspired by p
 
 ## System Architecture
 
-```text
-TMDB API
-    ↓
-Metadata Enrichment
-    ↓
-Sentence Transformer Embeddings
-    ↓
-FAISS Vector Retrieval
-    ↓
-Collaborative Filtering (SVD)
-    ↓
-Hybrid Recommendation Engine
-    ↓
-FastAPI Backend
-    ↓
-Streamlit Frontend
-```
-
----
+![Architecture](architecture.png)
 
 ## Core Features
 
@@ -67,6 +49,8 @@ Provides a Streamlit-based interface with:
 - Recommendation visualization
 - Movie posters
 - Personalized recommendation workflow
+
+![Features](features.png)
 
 ---
 
